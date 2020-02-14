@@ -6,9 +6,10 @@ package stack;
  * @Annotation:
  */
 public interface Stack<E> {
-    int getSize();
-    boolean isEmpty();
-    void push(E e);
-    E pop();
-    E peek();
+
+    int getSize();  //获取栈中元素数量
+    boolean isEmpty();  //判断栈是否为空
+    void push(E e);  //进栈
+    E pop();  //出栈
+    E peek();  //查看栈顶元素
 }
