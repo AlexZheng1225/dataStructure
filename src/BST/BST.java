@@ -9,7 +9,7 @@ import java.util.Stack;
  * @Date: created in 21:48  2020/2/26
  * @Annotation: Binary Search Tree 递归写法
  */
-//使泛型具有可比较性 并不是所有的数据都可以拿来比较
+//使泛型具有可比较性 并不是所有的数据都可以拿来进行比较
 public class BST<E extends Comparable<E>> {
 
     private class Node{
