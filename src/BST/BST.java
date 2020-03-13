@@ -22,6 +22,7 @@ public class BST<E extends Comparable<E>> {
             left = null;
             right = null;
         }
+
     }
 
     private Node root;
@@ -118,7 +119,7 @@ public class BST<E extends Comparable<E>> {
         preOrder(node.right);
     }
 
-    //二分搜索树 前序遍历 非递归
+    //二分搜索树 前序遍历 非递归(使用栈实现)
     public void preOrderNR(){
         Stack<Node> stack = new Stack<>();
         stack.push(root);
@@ -219,7 +220,7 @@ public class BST<E extends Comparable<E>> {
 
     //从二分搜索树中删除最小值所在节点，返回最小值
     public E removeMin(){
-        E ret = minimum(); //查找最小值
+        E ret = minimum(); //查找最小值 方法中有做非空验证
         root = removeMin(root);
         return ret;
     }
@@ -239,7 +240,7 @@ public class BST<E extends Comparable<E>> {
 
     //从二分搜索树中删除最大值所在结点，返回最大值
     public E removeMax(){
-        E ret = maximun();
+        E ret = maximun(); //方法中有做非空验证
         root = removeMax(root);
         return ret;
     }
