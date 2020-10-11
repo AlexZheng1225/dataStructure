@@ -20,6 +20,8 @@ public class Array<E> {
         size = 0;
     }
 
+
+
     /**
      * MaxHeap用 heapify
      * @param arr

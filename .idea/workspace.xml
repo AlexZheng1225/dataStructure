@@ -1,32 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7162bc3e-65c9-4490-a6b1-f5f1d63ede98" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaxHeap/BinaryHeap.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaxHeap/PriorityQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaxHeap/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaxHeap/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaxHeap/Solution2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SegmentTree/Merger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SegmentTree/NumArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SegmentTree/SegmentTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SegmentTree/SegmentTree.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trie/Trie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trie/Trie.txt" afterDir="false" />
+    <list default="true" id="7162bc3e-65c9-4490-a6b1-f5f1d63ede98" name="Default" comment="Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BST/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BST/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/LinkedListStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LinkedListStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/Solution3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/queue/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queue/ArrayQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/queue/LoopQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queue/LoopQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,12 +220,31 @@
       <workItem from="1601725061890" duration="4462000" />
       <workItem from="1601863132439" duration="27478000" />
       <workItem from="1602216051301" duration="5923000" />
-      <workItem from="1602412966205" duration="242000" />
+      <workItem from="1602412966205" duration="906000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit">
+      <created>1602413245472</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602413245472</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Commit">
+      <created>1602413428792</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602413428792</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="650" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1602221812685">
@@ -257,10 +252,10 @@
     </state>
     <state x="520" y="133" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1601395256522" />
     <state x="650" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1602221812685" />
-    <state x="564" y="132" key="CommitChangelistDialog2" timestamp="1602413333305">
+    <state x="564" y="132" key="CommitChangelistDialog2" timestamp="1602413935649">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="564" y="132" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1602413333305" />
+    <state x="564" y="132" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1602413935649" />
     <state width="548" height="583" key="DebuggerActiveHint" timestamp="1602140026710">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -306,6 +301,10 @@
     </state>
     <state width="1491" height="231" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1601277567005" />
     <state width="1875" height="225" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1602169614846" />
+    <state x="731" y="262" key="RollbackChangesDialog" timestamp="1602413964298">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="731" y="262" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1602413964298" />
     <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1602413250073">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

@@ -19,6 +19,8 @@ public class MaxHeap<E extends Comparable<E>> {
         data = new Array<E>();
     }
 
+
+
     //heapify:将任意树组整理成堆的形状
     public MaxHeap(E[] arr) {
         data = new Array<E>(arr);
