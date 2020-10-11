@@ -3,13 +3,16 @@ package linkedList;
 /**
  * @Author: ZhengCheng
  * @Date: created in 21:47  2020/2/15
- * @Annotation:使用链表实现linkedList
+ * @Annotation: 使用链表实现linkedList
  */
 public class ListNode {
 
     int val;
     ListNode next;
-    ListNode(int x) { val = x; }
+
+    ListNode(int x) {
+        val = x;
+    }
 
     //链表节点的构造函数
     //使用arr为参数，创建一个链表，当前的ListNode为链表头节点

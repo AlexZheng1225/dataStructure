@@ -14,7 +14,8 @@ class Solution2 {
     public ListNode removeElements(ListNode head, int val) {
 
         ListNode dummyHead = new ListNode(-1);
-        dummyHead.next = head;   //将dummyHead放在head之前，使其成为链表的第一个元素
+        //将dummyHead放在head之前，使其成为链表的第一个元素
+        dummyHead.next = head;
 
         ListNode prev = dummyHead;
         while(prev.next!=null){

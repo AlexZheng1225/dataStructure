@@ -119,7 +119,7 @@ public class BST<E extends Comparable<E>> {
         preOrder(node.right);
     }
 
-    //二分搜索树 前序遍历 非递归(使用栈实现)
+    //二分搜索树 前序遍历 非递归(使用栈实现) LIFI
     public void preOrderNR(){
         Stack<Node> stack = new Stack<>();
         stack.push(root);
@@ -141,6 +141,7 @@ public class BST<E extends Comparable<E>> {
     }
 
     //中序遍历以node为根的二分搜索树，递归算法
+    //中序遍历出来的结果是顺序的
     private void inOrder(Node node) {
         if(node == null){
             return;
@@ -169,6 +170,7 @@ public class BST<E extends Comparable<E>> {
     }
 
     //层序遍历(广度优先遍历) 运用到队列这种数据结构
+    //使用队列
     public void levelOrder(){
 
         Queue<Node> q = new LinkedList<>();
@@ -221,7 +223,7 @@ public class BST<E extends Comparable<E>> {
     //从二分搜索树中删除最小值所在节点，返回最小值
     public E removeMin(){
         E ret = minimum(); //查找最小值 方法中有做非空验证
-        root = removeMin(root);
+        root = removeMin(root); //新root
         return ret;
     }
 
@@ -292,13 +294,15 @@ public class BST<E extends Comparable<E>> {
             }
 
             //待删除节点左右子树都不为空
-            //找到比待删除节点要大的最小的节点，即待删除右子树最小的节点
+            //找到比待删除节点要大的最小的节点，即待删除右子树最小的节点(重点：---核心要点)
             //用此节点顶替待删除结点
-            Node successor = minimum(node.right);  //找到最小值
+            Node successor = minimum(node.right);  //找到右子树上的最小值
             successor.right = removeMin(node.right);  //将右子树的最小值删除并返回删除后的结果
+//            size++;
             successor.left = node.left;
             //在此处不用维护size，因为在调用removeMin方法的时候已经对size进行了处理
             node.left = node.right = null;
+//            size--;
             return successor;
         }
         return node;

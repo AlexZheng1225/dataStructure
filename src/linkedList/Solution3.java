@@ -8,7 +8,7 @@ package linkedList;
  *     ListNode(int x) { val = x; }
  * }
  */
-//Solution 3 ：
+//Solution 3 ：递归
 class Solution3 {
 
     public ListNode removeElements(ListNode head, int val) {

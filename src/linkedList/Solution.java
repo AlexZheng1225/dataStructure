@@ -13,7 +13,6 @@ package linkedList;
 class Solution {
 
     public ListNode removeElements(ListNode head, int val) {
-
         //判断表头元素是否符合删除条件
         while(head!=null&&head.val==val){
             ListNode delNode = head;

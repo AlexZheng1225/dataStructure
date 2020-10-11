@@ -3,12 +3,15 @@ package array;
 /**
  * @Author: ZhengCheng
  * @Date: created in 21:29  2020/2/8
- * @Annotation:数组
+ * @Annotation:数组 (泛型)
  */
 public class Array<E> {
 
-    private E[] data; //定义数组
-    private int size;  //定义数组容量
+    //定义数组
+    private E[] data;
+    //定义数组容量
+    private int size;
+    //capacity==data.length
 
     /**
      * 构造参数，传入数组的容量capacity构造Array
@@ -16,7 +19,8 @@ public class Array<E> {
      * @param capacity
      */
     public Array(int capacity) {
-        data = (E[]) new Object[capacity]; //不能直接使用new E[capacity]，编译不通过，应使用new Object[capacity]后再进行强制转换。
+        //不能直接使用new E[capacity]，编译不通过，应使用new Object[capacity]后再进行强制转换。
+        data = (E[]) new Object[capacity];
         size = 0;
     }
 
@@ -84,6 +88,7 @@ public class Array<E> {
      * @param e
      */
     public void add(int index, E e) {
+        //判断传入index是否非法
         if (index < 0 || index > size) {
             throw new IllegalArgumentException("Addlast failed. Require index >=0. array.array is full");
         }
@@ -170,7 +175,9 @@ public class Array<E> {
             data[i] = data[i + 1];
         }
         size--;
-        data[size] = null; //将该位置的数据设置为空，便于GC自动回收
+        //将该位置的数据设置为空，便于GC自动回收
+        data[size] = null;
+        //为什么要除以4？ 防止复杂度震荡
         if (size == data.length / 4 && data.length / 2 != 0) {
             resize(data.length / 2);
         }

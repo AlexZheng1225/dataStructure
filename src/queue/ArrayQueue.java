@@ -3,7 +3,7 @@ package queue;
 /**
  * @Author: ZhengCheng
  * @Date: created in 23:54  2020/2/10
- * @Annotation:使用数组实现Queue
+ * @Annotation: 使用数组实现Queue
  */
 public class ArrayQueue<E> implements Queue<E> {
 

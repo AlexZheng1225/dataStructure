@@ -3,16 +3,19 @@ package queue;
 /**
  * @Author: ZhengCheng
  * @Date: created in 23:23  2020/2/11
- * @Annotation:LoopQueue实现
+ * @Annotation: LoopQueue实现
  */
 public class LoopQueue<E> implements Queue<E> {
 
     private E[] data;
-    private int front, tail; //队列的队首和队尾
-    private int size; //后期可以尝试去掉size变量
+    //队列的队首和队尾
+    private int front, tail;
+    //后期可以尝试去掉size变量
+    private int size;
 
     public LoopQueue(int capacity) {
-        data = (E[]) new Object[capacity + 1]; //有意识的浪费一个空间
+        //有意识的浪费一个空间
+        data = (E[]) new Object[capacity + 1];
         front = 0;
         tail = 0;
         size = 0;
@@ -23,6 +26,7 @@ public class LoopQueue<E> implements Queue<E> {
     }
 
     public int getCapacity() {
+        //之前有意识的浪费了一个空间
         return data.length - 1;
     }
 
@@ -33,19 +37,22 @@ public class LoopQueue<E> implements Queue<E> {
             resize(getCapacity() * 2);
         }
         data[tail] = e;
-        tail = (tail + 1) % data.length; //把队列看成是头尾相接的环状结构
+        //把队列看成是头尾相接的环状结构
+        tail = (tail + 1) % data.length;
         size++;
     }
 
     @Override
     public E dequeue() {
-        if (front == tail) {
+        if (isEmpty()) {
             throw new IllegalArgumentException("Connot dequeue from an empty queue.");
         }
         E temp = data[front];
-        data[front] = null; //便于GC回收，防止对象游离
+        //便于GC回收，防止对象游离
+        data[front] = null;
         front++;
         size--;
+        //防止复杂度震荡
         if(getCapacity()/4==size && getCapacity()/2!=0){
             resize(getCapacity()/2);
         }
@@ -85,7 +92,7 @@ public class LoopQueue<E> implements Queue<E> {
     private void resize(int newCapacity) {
         E[] newData = (E[]) new Object[newCapacity + 1];
         for (int i = 0; i < size; i++) {
-            newData[i] = data[front + i];
+            newData[i] = data[(front + i)%data.length];
         }
         data = newData;
         front = 0;

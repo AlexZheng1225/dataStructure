@@ -23,12 +23,13 @@ public class LinkedListStack<E> implements Stack<E> {
 
     @Override
     public boolean isEmpty() {
-        return list.getSize()==0;
+        return list.isEmpty();
     }
 
     @Override
     public void push(E e) {
-        list.addFirst(e);  //从时间复杂度考虑 栈的时间复杂度是O(1) 故我们需要调用addFirst方法进行入栈
+        //从时间复杂度考虑 栈的时间复杂度是O(1) 故我们需要调用addFirst方法进行入栈
+        list.addFirst(e);
     }
 
     @Override
@@ -48,6 +49,7 @@ public class LinkedListStack<E> implements Stack<E> {
         res.append(list);
         return res.toString();
     }
+
 
     public static void main(String[] args) {
         LinkedListStack<Integer> stack = new LinkedListStack<>();
