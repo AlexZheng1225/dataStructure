@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7162bc3e-65c9-4490-a6b1-f5f1d63ede98" name="Default" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/src/Trie/BST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trie/BSTSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trie/FileOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trie/Set.java" afterDir="false" />
+    <list default="true" id="7162bc3e-65c9-4490-a6b1-f5f1d63ede98" name="Default" comment="Tire的查询和添加操作，以及与BSTSet的性能比较">
+      <change afterPath="$PROJECT_DIR$/src/Trie/question211/WordDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnionFind/UF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnionFind/UnionFind1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnionFind/UnionFind2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnionFind/UnionFind3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnionFind/UnionFind4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnionFind/UnionFind5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnionFind/UnionFind6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnionFind/detail.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnionFind/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Map/BSTMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/BSTMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MaxHeap/MaxHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MaxHeap/MaxHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MaxHeap/PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MaxHeap/PriorityQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SegmentTree/Merger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SegmentTree/Merger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SegmentTree/SegmentTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SegmentTree/SegmentTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SegmentTree/SegmentTree.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/SegmentTree/SegmentTree.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Trie/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trie/Trie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Trie/Trie.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trie/Trie.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,30 +75,30 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JavaWeb\Algorithms\dataStructure\src\SegmentTree" />
+      <recent name="E:\JavaWeb\Algorithms\dataStructure\src\Set" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="UnionFind" />
+      <recent name="Trie" />
+      <recent name="MaxHeap" />
+      <recent name="Set" />
+      <recent name="linkedList" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\JavaWeb\Algorithms\dataStructure\src\Trie" />
       <recent name="E:\JavaWeb\Algorithms\dataStructure\src" />
       <recent name="E:\JavaWeb\Algorithms\dataStructure\src\Map" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Trie" />
-      <recent name="MaxHeap" />
-      <recent name="Set" />
-      <recent name="linkedList" />
-      <recent name="queue" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\JavaWeb\Algorithms\dataStructure\src\SegmentTree" />
-      <recent name="E:\JavaWeb\Algorithms\dataStructure\src\Set" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.Trie">
-    <configuration name="BSTMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Map.BSTMap" />
+  <component name="RunManager" selected="Application.main">
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedList.LinkedList" />
       <module name="dataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Map.*" />
+          <option name="PATTERN" value="linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Map.LinkedListMap" />
+    <configuration name="LinkedListStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedList.LinkedListStack" />
       <module name="dataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Map.*" />
+          <option name="PATTERN" value="linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,28 +119,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaxHeap.MaxHeap" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="dataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MaxHeap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SegmentTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SegmentTree.SegmentTree" />
-      <module name="dataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SegmentTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,20 +139,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UnionFind.main" />
+      <module name="dataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UnionFind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.LinkedListMap" />
-      <item itemvalue="Application.BSTMap" />
-      <item itemvalue="Application.MaxHeap" />
-      <item itemvalue="Application.SegmentTree" />
       <item itemvalue="Application.Trie" />
+      <item itemvalue="Application.LinkedList" />
+      <item itemvalue="Application.LinkedListStack" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.Trie" />
-        <item itemvalue="Application.SegmentTree" />
-        <item itemvalue="Application.MaxHeap" />
-        <item itemvalue="Application.BSTMap" />
-        <item itemvalue="Application.LinkedListMap" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.LinkedListStack" />
+        <item itemvalue="Application.LinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +235,9 @@
       <workItem from="1601725061890" duration="4462000" />
       <workItem from="1601863132439" duration="27478000" />
       <workItem from="1602216051301" duration="5923000" />
-      <workItem from="1602412966205" duration="9739000" />
+      <workItem from="1602412966205" duration="10523000" />
+      <workItem from="1602479781713" duration="4775000" />
+      <workItem from="1602550476957" duration="45968000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1602413245472</created>
@@ -250,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602413995490</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Tire的查询和添加操作，以及与BSTSet的性能比较">
+      <created>1602424821896</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602424821896</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,43 +275,44 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+    <MESSAGE value="Tire的查询和添加操作，以及与BSTSet的性能比较" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tire的查询和添加操作，以及与BSTSet的性能比较" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="650" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1602221812685">
+    <state x="650" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1602583530528">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="520" y="133" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1601395256522" />
-    <state x="650" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1602221812685" />
-    <state x="564" y="132" key="CommitChangelistDialog2" timestamp="1602413994077">
+    <state x="650" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1602583530528" />
+    <state x="564" y="132" key="CommitChangelistDialog2" timestamp="1602424821072">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="564" y="132" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1602413994077" />
+    <state x="564" y="132" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1602424821072" />
     <state width="548" height="583" key="DebuggerActiveHint" timestamp="1602140026710">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="438" height="466" key="DebuggerActiveHint/0.0.1536.864@0.0.1536.864" timestamp="1601277243183" />
     <state width="548" height="583" key="DebuggerActiveHint/0.0.1920.1080@0.0.1920.1080" timestamp="1602140026710" />
-    <state width="1875" height="306" key="GridCell.Tab.0.bottom" timestamp="1602424784535">
+    <state width="1875" height="306" key="GridCell.Tab.0.bottom" timestamp="1602684989662">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1491" height="228" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1601395419166" />
-    <state width="1875" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1602424784535" />
-    <state width="1875" height="306" key="GridCell.Tab.0.center" timestamp="1602424784534">
+    <state width="1875" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1602684989662" />
+    <state width="1875" height="306" key="GridCell.Tab.0.center" timestamp="1602684989662">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1491" height="228" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1601395419165" />
-    <state width="1875" height="306" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1602424784534" />
-    <state width="1875" height="306" key="GridCell.Tab.0.left" timestamp="1602424784534">
+    <state width="1875" height="306" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1602684989662" />
+    <state width="1875" height="306" key="GridCell.Tab.0.left" timestamp="1602684989662">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1491" height="228" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1601395419165" />
-    <state width="1875" height="306" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1602424784534" />
-    <state width="1875" height="306" key="GridCell.Tab.0.right" timestamp="1602424784535">
+    <state width="1875" height="306" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1602684989662" />
+    <state width="1875" height="306" key="GridCell.Tab.0.right" timestamp="1602684989662">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1491" height="228" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1601395419166" />
-    <state width="1875" height="306" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1602424784535" />
+    <state width="1875" height="306" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1602684989662" />
     <state width="1875" height="225" key="GridCell.Tab.1.bottom" timestamp="1602169614847">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -319,10 +337,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="731" y="262" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1602413964298" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1602414000000">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1602424834104">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1602414000000" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1602424834104" />
     <state width="775" height="439" key="XDebugger.FullValuePopup" timestamp="1601276842428">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

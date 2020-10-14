@@ -95,7 +95,7 @@ public class SegmentTree<E> {
         set(0,0,data.length-1,index,e);
     }
 
-    //在以treeIndex为根的线段树中更新index的值为e
+    //在以treeIndex为根的线段树中更新index的值为e 以及前面各个区间的值
     private void set(int treeIndex,int l,int r,int index,E e){
         if (l==r){
             tree[treeIndex]=e;

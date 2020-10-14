@@ -65,14 +65,13 @@ public class BSTMap<K extends Comparable<K>,V> implements Map<K,V> {
         }
     }
 
-
     @Override
     public V remove(K key) {
         Node node = getNode(root,key);
         if(node==null){
             return null;
         }
-        root = remove(node,key);
+        root = remove(root,key);
         return node.value;
     }
 
@@ -104,7 +103,7 @@ public class BSTMap<K extends Comparable<K>,V> implements Map<K,V> {
 
             //待删除节点左右子树都不为空
             //找到比待删除节点要大的最小的节点，即待删除右子树最小的节点
-            //用此节点顶替待删除结点41
+            //用此节点顶替待删除结点
             Node successor = minimum(node.right);  //找到最小值
             successor.right = removeMin(node.right);  //将右子树的最小值删除并返回删除后的结果
             successor.left = node.left;

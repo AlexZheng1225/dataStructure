@@ -1,5 +1,4 @@
 package Trie;
-import Map.BSTMap;
 
 import java.util.ArrayList;
 import java.util.TreeMap;//基于红黑树
@@ -7,7 +6,7 @@ import java.util.TreeMap;//基于红黑树
 /**
  * @Author Alex Zheng
  * @Date 2020/10/9 13:30
- * @Annotation
+ * @Annotation Tire 可以解决Leetcode 208号问题
  */
 public class Trie {
 
@@ -34,21 +33,6 @@ public class Trie {
         size = 0;
     }
 
-    //查询单词word是否在Tire中（非递归）
-    public boolean contains(String word){
-        Node cur = root;
-        for (int i=0;i<word.length();i++){
-            char c = word.charAt(i);
-            if (cur.next.get(c)==null){
-                return false;
-            }
-            cur = cur.next.get(c);
-        }
-        //比如Tire中有panda这个单词，但是我们现在查pan 那么很显然pan没有存进去但又是panda的一部分
-        //此时返回cur.isWord
-        return cur.isWord;
-    }
-
     //向Tire中添加一个新的单词word（非递归）
     public void add(String word){
         Node cur = root;
@@ -66,6 +50,34 @@ public class Trie {
             cur.isWord = true;
             size++;
         }
+    }
+
+    //查询单词word是否在Tire中（非递归）
+    public boolean contains(String word){
+        Node cur = root;
+        for (int i=0;i<word.length();i++){
+            char c = word.charAt(i);
+            if (cur.next.get(c)==null){
+                return false;
+            }
+            cur = cur.next.get(c);
+        }
+        //比如Tire中有panda这个单词，但是我们现在查pan 那么很显然pan没有存进去但又是panda的一部分
+        //此时返回cur.isWord
+        return cur.isWord;
+    }
+
+    //查询是否在Tire中有单词以prefix为前缀(前缀：一个单词的所有字母本身也是这个单词的前缀)
+    public boolean isPrefix(String prefix){
+        Node cur = root;
+        for (int i=0;i<prefix.length();i++){
+            char c = prefix.charAt(i);
+            if (cur.next.get(c) == null){
+                return false;
+            }
+            cur = cur.next.get(c);
+        }
+        return true;
     }
 
     //获得Trie中存储的单词数量

@@ -59,7 +59,7 @@ public class LinkedList<E> {
     //在链表的index(0-based)位置添加新的元素e
     //在链表中这不是一个常用的操作 练习用(考题、面试题、练习题)
     public void add(int index, E e) {
-        if (index < 0 || index > size) {
+        if (index < 0 || index > size) {//index可以等于size，等于size时表示在链表尾部添加元素
             throw new IllegalArgumentException("Add failed. Illegal index.");
         }
         //判断链表是否为空

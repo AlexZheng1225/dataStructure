@@ -3,7 +3,7 @@ package MaxHeap;
 /**
  * @Author Alex Zheng
  * @Date 2020/9/29 14:42
- * @Annotation
+ * @Annotation 优先队列可以使用最大/小堆进行实现
  */
 public class PriorityQueue<E extends Comparable<E>> implements Queue<E> {
 
