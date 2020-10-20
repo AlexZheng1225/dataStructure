@@ -29,6 +29,11 @@ public class BSTMap<K extends Comparable<K>,V> implements Map<K,V> {
     private int size;
     private Node root;
 
+    public BSTMap(){
+        root = null;
+        size=0;
+    }
+
     @Override
     public void add(K key, V value) {
         root = add(root,key,value);

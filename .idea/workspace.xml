@@ -1,28 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7162bc3e-65c9-4490-a6b1-f5f1d63ede98" name="Default" comment="Tire的查询和添加操作，以及与BSTSet的性能比较">
-      <change afterPath="$PROJECT_DIR$/src/Trie/question211/WordDictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnionFind/UF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnionFind/UnionFind1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnionFind/UnionFind2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnionFind/UnionFind3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnionFind/UnionFind4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnionFind/UnionFind5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnionFind/UnionFind6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnionFind/detail.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnionFind/main.java" afterDir="false" />
+    <list default="true" id="7162bc3e-65c9-4490-a6b1-f5f1d63ede98" name="Default" comment="并查集/UnionFind及其优化，路径压缩等">
+      <change afterPath="$PROJECT_DIR$/src/AVLTree/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AVLTree/BSTMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AVLTree/avl.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Map/BSTMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/BSTMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MaxHeap/MaxHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MaxHeap/MaxHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MaxHeap/PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MaxHeap/PriorityQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SegmentTree/Merger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SegmentTree/Merger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SegmentTree/SegmentTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SegmentTree/SegmentTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SegmentTree/SegmentTree.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/SegmentTree/SegmentTree.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trie/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trie/Trie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trie/Trie.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trie/Trie.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,30 +59,31 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\JavaWeb\Algorithms\dataStructure\src\SegmentTree" />
-      <recent name="E:\JavaWeb\Algorithms\dataStructure\src\Set" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="UnionFind" />
-      <recent name="Trie" />
-      <recent name="MaxHeap" />
-      <recent name="Set" />
-      <recent name="linkedList" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\JavaWeb\Algorithms\dataStructure\src\Trie" />
       <recent name="E:\JavaWeb\Algorithms\dataStructure\src" />
       <recent name="E:\JavaWeb\Algorithms\dataStructure\src\Map" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="AVLTree" />
+      <recent name="UnionFind" />
+      <recent name="Trie" />
+      <recent name="MaxHeap" />
+      <recent name="Set" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JavaWeb\Algorithms\dataStructure\src\AVLTree" />
+      <recent name="E:\JavaWeb\Algorithms\dataStructure\src\SegmentTree" />
+      <recent name="E:\JavaWeb\Algorithms\dataStructure\src\Set" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.main">
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.LinkedList" />
+  <component name="RunManager" selected="Application.AVLTree">
+    <configuration name="AVLTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AVLTree.AVLTree" />
       <module name="dataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedList.*" />
+          <option name="PATTERN" value="AVLTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,18 +139,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Trie" />
-      <item itemvalue="Application.LinkedList" />
       <item itemvalue="Application.LinkedListStack" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.main" />
+      <item itemvalue="Application.AVLTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AVLTree" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.Trie" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.LinkedListStack" />
-        <item itemvalue="Application.LinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +222,9 @@
       <workItem from="1602216051301" duration="5923000" />
       <workItem from="1602412966205" duration="10523000" />
       <workItem from="1602479781713" duration="4775000" />
-      <workItem from="1602550476957" duration="45968000" />
+      <workItem from="1602550476957" duration="47351000" />
+      <workItem from="1602735899052" duration="9894000" />
+      <workItem from="1603168295678" duration="2300000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1602413245472</created>
@@ -267,7 +254,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602424821896</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Tire的查询和添加操作，以及与BSTSet的性能比较">
+      <created>1602685369806</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602685369806</updated>
+    </task>
+    <task id="LOCAL-00006" summary="并查集/UnionFind及其优化，路径压缩等">
+      <created>1602685484557</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602685484557</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,43 +277,44 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit" />
     <MESSAGE value="Tire的查询和添加操作，以及与BSTSet的性能比较" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tire的查询和添加操作，以及与BSTSet的性能比较" />
+    <MESSAGE value="并查集/UnionFind及其优化，路径压缩等" />
+    <option name="LAST_COMMIT_MESSAGE" value="并查集/UnionFind及其优化，路径压缩等" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="650" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1602583530528">
+    <state x="650" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1602748366426">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="520" y="133" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1601395256522" />
-    <state x="650" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1602583530528" />
-    <state x="564" y="132" key="CommitChangelistDialog2" timestamp="1602685368613">
+    <state x="650" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1602748366426" />
+    <state x="1112" y="161" key="CommitChangelistDialog2" timestamp="1603171678597">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="564" y="132" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1602685368613" />
+    <state x="1112" y="161" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1603171678597" />
     <state width="548" height="583" key="DebuggerActiveHint" timestamp="1602140026710">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="438" height="466" key="DebuggerActiveHint/0.0.1536.864@0.0.1536.864" timestamp="1601277243183" />
     <state width="548" height="583" key="DebuggerActiveHint/0.0.1920.1080@0.0.1920.1080" timestamp="1602140026710" />
-    <state width="1875" height="374" key="GridCell.Tab.0.bottom" timestamp="1602685422191">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1875" height="374" key="GridCell.Tab.0.bottom" timestamp="1602830829553">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1491" height="228" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1601395419166" />
-    <state width="1875" height="374" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1602685422191" />
-    <state width="1875" height="374" key="GridCell.Tab.0.center" timestamp="1602685422190">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1875" height="374" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1602830829553" />
+    <state width="1875" height="374" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1602752550008" />
+    <state width="1875" height="374" key="GridCell.Tab.0.center" timestamp="1602830829553">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1491" height="228" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1601395419165" />
-    <state width="1875" height="374" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1602685422190" />
-    <state width="1875" height="374" key="GridCell.Tab.0.left" timestamp="1602685422190">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1875" height="374" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1602830829553" />
+    <state width="1875" height="374" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1602752550008" />
+    <state width="1875" height="374" key="GridCell.Tab.0.left" timestamp="1602830829551">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1491" height="228" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1601395419165" />
-    <state width="1875" height="374" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1602685422190" />
-    <state width="1875" height="374" key="GridCell.Tab.0.right" timestamp="1602685422191">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1875" height="374" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1602830829551" />
+    <state width="1875" height="374" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1602752550008" />
+    <state width="1875" height="374" key="GridCell.Tab.0.right" timestamp="1602830829553">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1491" height="228" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1601395419166" />
-    <state width="1875" height="374" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1602685422191" />
+    <state width="1875" height="374" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1602830829553" />
+    <state width="1875" height="374" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1602752550008" />
     <state width="1875" height="225" key="GridCell.Tab.1.bottom" timestamp="1602169614847">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -337,10 +339,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="731" y="262" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1602413964298" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1602685373506">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1602685487715">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1602685373506" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1602685487715" />
     <state width="775" height="439" key="XDebugger.FullValuePopup" timestamp="1601276842428">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -358,11 +360,11 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="702" y="167" key="refactoring.ChangeSignatureDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1602137158020" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1602416612262">
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1602749988159">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="498" y="188" width="672" height="543" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1601517405784" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1602416612262" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1602749988159" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
