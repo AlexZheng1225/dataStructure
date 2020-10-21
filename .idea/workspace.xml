@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7162bc3e-65c9-4490-a6b1-f5f1d63ede98" name="Default" comment="并查集/UnionFind及其优化，路径压缩等">
+    <list default="true" id="7162bc3e-65c9-4490-a6b1-f5f1d63ede98" name="Default" comment="AVL Tree">
       <change afterPath="$PROJECT_DIR$/src/AVLTree/AVLTree.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/AVLTree/BSTMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AVLTree/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/AVLTree/avl.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Map/AVLMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Map/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Map/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Map/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Set/AVLSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Set/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Set/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Map/BSTMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/BSTMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,25 +66,25 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\JavaWeb\Algorithms\dataStructure\src\Trie" />
-      <recent name="E:\JavaWeb\Algorithms\dataStructure\src" />
-      <recent name="E:\JavaWeb\Algorithms\dataStructure\src\Map" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="AVLTree" />
-      <recent name="UnionFind" />
-      <recent name="Trie" />
-      <recent name="MaxHeap" />
-      <recent name="Set" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\JavaWeb\Algorithms\dataStructure\src\AVLTree" />
       <recent name="E:\JavaWeb\Algorithms\dataStructure\src\SegmentTree" />
       <recent name="E:\JavaWeb\Algorithms\dataStructure\src\Set" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Set" />
+      <recent name="Map" />
+      <recent name="AVLTree" />
+      <recent name="UnionFind" />
+      <recent name="Trie" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JavaWeb\Algorithms\dataStructure\src\Trie" />
+      <recent name="E:\JavaWeb\Algorithms\dataStructure\src" />
+      <recent name="E:\JavaWeb\Algorithms\dataStructure\src\Map" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.AVLTree">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="AVLTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AVLTree.AVLTree" />
       <module name="dataStructure" />
@@ -91,12 +98,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.LinkedListStack" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AVLTree.Main" />
       <module name="dataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedList.*" />
+          <option name="PATTERN" value="AVLTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Map.Main" />
+      <module name="dataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,18 +125,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="dataStructure" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Trie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trie.Trie" />
+      <option name="MAIN_CLASS_NAME" value="Set.Main" />
       <module name="dataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trie.*" />
+          <option name="PATTERN" value="Set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,19 +151,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Trie" />
-      <item itemvalue="Application.LinkedListStack" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.main" />
       <item itemvalue="Application.AVLTree" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AVLTree" />
-        <item itemvalue="Application.main" />
-        <item itemvalue="Application.Trie" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.LinkedListStack" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.AVLTree" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +237,8 @@
       <workItem from="1602479781713" duration="4775000" />
       <workItem from="1602550476957" duration="47351000" />
       <workItem from="1602735899052" duration="9894000" />
-      <workItem from="1603168295678" duration="2300000" />
+      <workItem from="1603168295678" duration="3661000" />
+      <workItem from="1603241376979" duration="17315000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1602413245472</created>
@@ -268,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602685484557</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="BSTMap改进 修复Bug">
+      <created>1603171713204</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603171713204</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,43 +299,44 @@
     <MESSAGE value="Commit" />
     <MESSAGE value="Tire的查询和添加操作，以及与BSTSet的性能比较" />
     <MESSAGE value="并查集/UnionFind及其优化，路径压缩等" />
-    <option name="LAST_COMMIT_MESSAGE" value="并查集/UnionFind及其优化，路径压缩等" />
+    <MESSAGE value="BSTMap改进 修复Bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="BSTMap改进 修复Bug" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="650" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1602748366426">
+    <state x="650" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1603268631392">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="520" y="133" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1601395256522" />
-    <state x="650" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1602748366426" />
-    <state x="1112" y="161" key="CommitChangelistDialog2" timestamp="1603171678597">
+    <state x="650" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1603268631392" />
+    <state x="546" y="142" key="CommitChangelistDialog2" timestamp="1603269222881">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1112" y="161" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1603171678597" />
+    <state x="546" y="142" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1603269222881" />
     <state width="548" height="583" key="DebuggerActiveHint" timestamp="1602140026710">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="438" height="466" key="DebuggerActiveHint/0.0.1536.864@0.0.1536.864" timestamp="1601277243183" />
     <state width="548" height="583" key="DebuggerActiveHint/0.0.1920.1080@0.0.1920.1080" timestamp="1602140026710" />
-    <state width="1875" height="374" key="GridCell.Tab.0.bottom" timestamp="1602830829553">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1875" height="351" key="GridCell.Tab.0.bottom" timestamp="1603269157073">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1875" height="374" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1602830829553" />
-    <state width="1875" height="374" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1602752550008" />
-    <state width="1875" height="374" key="GridCell.Tab.0.center" timestamp="1602830829553">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1875" height="351" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603269157073" />
+    <state width="1875" height="351" key="GridCell.Tab.0.center" timestamp="1603269157073">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1875" height="374" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1602830829553" />
-    <state width="1875" height="374" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1602752550008" />
-    <state width="1875" height="374" key="GridCell.Tab.0.left" timestamp="1602830829551">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1875" height="351" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603269157073" />
+    <state width="1875" height="351" key="GridCell.Tab.0.left" timestamp="1603269157073">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1875" height="374" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1602830829551" />
-    <state width="1875" height="374" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1602752550008" />
-    <state width="1875" height="374" key="GridCell.Tab.0.right" timestamp="1602830829553">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1875" height="351" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603269157073" />
+    <state width="1875" height="351" key="GridCell.Tab.0.right" timestamp="1603269157073">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1875" height="374" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1602830829553" />
-    <state width="1875" height="374" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1602752550008" />
+    <state width="1875" height="351" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603269157073" />
     <state width="1875" height="225" key="GridCell.Tab.1.bottom" timestamp="1602169614847">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -339,10 +361,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="731" y="262" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1602413964298" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1602685487715">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1603171716868">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1602685487715" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1603171716868" />
     <state width="775" height="439" key="XDebugger.FullValuePopup" timestamp="1601276842428">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -360,11 +382,11 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="702" y="167" key="refactoring.ChangeSignatureDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1602137158020" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1602749988159">
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1603259526681">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="498" y="188" width="672" height="543" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1601517405784" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1602749988159" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603259526681" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
