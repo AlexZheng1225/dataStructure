@@ -44,6 +44,7 @@ public class AVLTree<K extends Comparable<K>, V> implements Map<K, V> {
         return isBalanced(root);
     }
 
+    //判断该二叉树是否是平衡二叉树---子方法
     private boolean isBalanced(Node node) {
         if (node == null) {
             //对于空来说 并无打破平衡二叉树的性质
@@ -59,7 +60,7 @@ public class AVLTree<K extends Comparable<K>, V> implements Map<K, V> {
         return isBalanced(node.left) && isBalanced(node.right);
     }
 
-    //判断该树是否为二叉树
+    //判断该树是否为二分搜索树
     public boolean isBST() {
         ArrayList<K> keys = new ArrayList<>();
         //中序遍历
@@ -90,7 +91,7 @@ public class AVLTree<K extends Comparable<K>, V> implements Map<K, V> {
         return node.height;
     }
 
-    //获得node节点的平衡因子
+    //获得node节点的平衡因子(左子树高度-右子树高度)
     private int getBalanceFactor(Node node) {
         if (node == null) {
             return 0;
@@ -99,6 +100,7 @@ public class AVLTree<K extends Comparable<K>, V> implements Map<K, V> {
     }
 
     @Override
+    //添加元素时进行改进
     public void add(K key, V value) {
         root = add(root, key, value);
     }
@@ -157,14 +159,22 @@ public class AVLTree<K extends Comparable<K>, V> implements Map<K, V> {
 
     //左右旋转后，即是平衡二叉树也是二分搜索树
     //对节点进行向左旋转操作，返回旋转后新的根节点
+    // 对节点y进行向左旋转操作，返回旋转后新的根节点x
+    //    y                             x
+    //  /  \                          /   \
+    // T1   x      向左旋转 (y)       y     z
+    //     / \   - - - - - - - ->   / \   / \
+    //   T2  z                     T1 T2 T3 T4
+    //      / \
+    //     T3 T4
     //LL
     private Node leftRotate(Node y) {
         Node x = y.right;
-        Node T3 = x.left;
+        Node T2 = x.left;
 
         //向左旋转过程
         x.left = y;
-        y.right = T3;
+        y.right = T2;
 
         //完成做旋转之后要更新节点的Height值(只需要更新x和y节点的高度值，更新先更新y的高度值)  看图
         y.height = Math.max(getHeight(y.left), getHeight(y.right)) + 1;
@@ -174,6 +184,14 @@ public class AVLTree<K extends Comparable<K>, V> implements Map<K, V> {
 
     //左右旋转后，即是平衡二叉树也是二分搜索树
     //对节点进行向右旋转操作，返回旋转后新的根节点
+    // 对节点y进行向右旋转操作，返回旋转后新的根节点x
+    //        y                              x
+    //       / \                           /   \
+    //      x   T4     向右旋转 (y)        z     y
+    //     / \       - - - - - - - ->    / \   / \
+    //    z   T3                       T1  T2 T3 T4
+    //   / \
+    // T1   T2
     //RR
     private Node rightRotate(Node y) {
         Node x = y.left;
@@ -249,7 +267,7 @@ public class AVLTree<K extends Comparable<K>, V> implements Map<K, V> {
                 //removeMin两种解决方法，一种是在removeMin中添加相应的维护平衡的代码
                 //或者 递归调用remove
                 //successor.right = removeMin(node.right);  //将右子树的最小值删除并返回删除后的结果
-                successor.right = remove(node.right, successor.key);
+                successor.right = remove(node.right, successor.key); //改为递归调用自身
                 successor.left = node.left;
                 //在此处不用维护size，因为在调用removeMin方法的时候已经对size进行了处理
                 node.left = node.right = null;

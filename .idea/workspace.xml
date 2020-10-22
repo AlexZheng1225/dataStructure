@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7162bc3e-65c9-4490-a6b1-f5f1d63ede98" name="Default" comment="AVL Tree">
-      <change afterPath="$PROJECT_DIR$/src/AVLTree/AVLTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AVLTree/BSTMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AVLTree/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AVLTree/avl.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Map/AVLMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Map/AVLTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Map/FileOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Map/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Set/AVLSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Set/AVLTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Set/Main.java" afterDir="false" />
+    <list default="true" id="7162bc3e-65c9-4490-a6b1-f5f1d63ede98" name="Default" comment="基于AVL Tree实现的Set结合与其性能比较">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AVLTree/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AVLTree/AVLTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Set/AVLSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Set/AVLSet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,7 +229,7 @@
       <workItem from="1602550476957" duration="47351000" />
       <workItem from="1602735899052" duration="9894000" />
       <workItem from="1603168295678" duration="3661000" />
-      <workItem from="1603241376979" duration="17315000" />
+      <workItem from="1603241376979" duration="27849000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1602413245472</created>
@@ -289,7 +280,28 @@
       <option name="project" value="LOCAL" />
       <updated>1603171713204</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="AVL Tree的实现以及AVL Tree实现Map映射">
+      <created>1603269293895</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603269293895</updated>
+    </task>
+    <task id="LOCAL-00009" summary="基于AVL Tree实现的Map及其性能比较">
+      <created>1603269348580</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603269348580</updated>
+    </task>
+    <task id="LOCAL-00010" summary="基于AVL Tree实现的Set结合与其性能比较">
+      <created>1603269392501</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1603269392501</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +312,10 @@
     <MESSAGE value="Tire的查询和添加操作，以及与BSTSet的性能比较" />
     <MESSAGE value="并查集/UnionFind及其优化，路径压缩等" />
     <MESSAGE value="BSTMap改进 修复Bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="BSTMap改进 修复Bug" />
+    <MESSAGE value="AVL Tree的实现以及AVL Tree实现Map映射" />
+    <MESSAGE value="基于AVL Tree实现的Map及其性能比较" />
+    <MESSAGE value="基于AVL Tree实现的Set结合与其性能比较" />
+    <option name="LAST_COMMIT_MESSAGE" value="基于AVL Tree实现的Set结合与其性能比较" />
   </component>
   <component name="WindowStateProjectService">
     <state x="650" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1603268631392">
@@ -308,10 +323,10 @@
     </state>
     <state x="520" y="133" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1601395256522" />
     <state x="650" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1603268631392" />
-    <state x="546" y="142" key="CommitChangelistDialog2" timestamp="1603269347453">
+    <state x="546" y="142" key="CommitChangelistDialog2" timestamp="1603337852330">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="546" y="142" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1603269347453" />
+    <state x="546" y="142" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1603337852330" />
     <state width="548" height="583" key="DebuggerActiveHint" timestamp="1602140026710">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -365,10 +380,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="731" y="262" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1602413964298" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1603269350289">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1603269404212">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1603269350289" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1603269404212" />
     <state width="775" height="439" key="XDebugger.FullValuePopup" timestamp="1601276842428">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -386,10 +401,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="702" y="167" key="refactoring.ChangeSignatureDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1602137158020" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1603259526681">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="498" y="188" width="672" height="543" key="search.everywhere.popup" timestamp="1603327119845">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="498" y="188" width="672" height="543" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1601517405784" />
+    <state x="498" y="188" width="672" height="543" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1603327119845" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603259526681" />
   </component>
   <component name="XDebuggerManager">
