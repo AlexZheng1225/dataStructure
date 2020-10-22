@@ -5,6 +5,7 @@ package Set;
  * @Date 2020/10/21 16:21
  * @Annotation
  */
+//必须是可比较的元素
 public class AVLSet<E extends Comparable<E>> implements Set<E> {
 
     private AVLTree<E,Object> avl;
