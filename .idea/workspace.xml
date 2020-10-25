@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7162bc3e-65c9-4490-a6b1-f5f1d63ede98" name="Default" comment="基于AVL Tree实现的Set结合与其性能比较">
-      <change afterPath="$PROJECT_DIR$/src/redblacktree/2-3Tree-RBTree.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redblacktree/AVLTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redblacktree/BST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redblacktree/FileOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redblacktree/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redblacktree/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redblacktree/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redblacktree/RBTree.java" afterDir="false" />
+    <list default="true" id="7162bc3e-65c9-4490-a6b1-f5f1d63ede98" name="Default" comment="2-3Tree与RBTree">
+      <change afterPath="$PROJECT_DIR$/src/Hash/FirstUniqueCharacter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redblacktree/2-3Tree-RBTree.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/redblacktree/2-3Tree-RBTree.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redblacktree/RBTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/redblacktree/RBTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +232,8 @@
       <workItem from="1602550476957" duration="47351000" />
       <workItem from="1602735899052" duration="9894000" />
       <workItem from="1603168295678" duration="3661000" />
-      <workItem from="1603241376979" duration="55528000" />
+      <workItem from="1603241376979" duration="58564000" />
+      <workItem from="1603587903451" duration="6836000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1602413245472</created>
@@ -323,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603337901974</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="2-3Tree与RBTree">
+      <created>1603518619970</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1603518619970</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +341,8 @@
     <MESSAGE value="基于AVL Tree实现的Map及其性能比较" />
     <MESSAGE value="AVL Tree" />
     <MESSAGE value="基于AVL Tree实现的Set结合与其性能比较" />
-    <option name="LAST_COMMIT_MESSAGE" value="基于AVL Tree实现的Set结合与其性能比较" />
+    <MESSAGE value="2-3Tree与RBTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="2-3Tree与RBTree" />
   </component>
   <component name="WindowStateProjectService">
     <state x="650" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1603268631392">
@@ -350,10 +354,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603353965194" />
-    <state x="546" y="142" key="CommitChangelistDialog2" timestamp="1603337899793">
+    <state x="546" y="142" key="CommitChangelistDialog2" timestamp="1603518619110">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="546" y="142" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1603337899793" />
+    <state x="546" y="142" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1603518619110" />
     <state width="548" height="583" key="DebuggerActiveHint" timestamp="1602140026710">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -363,26 +367,26 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="156" y="100" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603269314791" />
-    <state width="1875" height="364" key="GridCell.Tab.0.bottom" timestamp="1603517604305">
+    <state width="1875" height="364" key="GridCell.Tab.0.bottom" timestamp="1603586430751">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1875" height="374" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1602830829553" />
-    <state width="1875" height="364" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603517604305" />
-    <state width="1875" height="364" key="GridCell.Tab.0.center" timestamp="1603517604305">
+    <state width="1875" height="364" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603586430751" />
+    <state width="1875" height="364" key="GridCell.Tab.0.center" timestamp="1603586430750">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1875" height="374" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1602830829553" />
-    <state width="1875" height="364" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603517604305" />
-    <state width="1875" height="364" key="GridCell.Tab.0.left" timestamp="1603517604305">
+    <state width="1875" height="364" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603586430750" />
+    <state width="1875" height="364" key="GridCell.Tab.0.left" timestamp="1603586430750">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1875" height="374" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1602830829551" />
-    <state width="1875" height="364" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603517604305" />
-    <state width="1875" height="364" key="GridCell.Tab.0.right" timestamp="1603517604305">
+    <state width="1875" height="364" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603586430750" />
+    <state width="1875" height="364" key="GridCell.Tab.0.right" timestamp="1603586430751">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1875" height="374" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1602830829553" />
-    <state width="1875" height="364" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603517604305" />
+    <state width="1875" height="364" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603586430751" />
     <state width="1875" height="225" key="GridCell.Tab.1.bottom" timestamp="1602169614847">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -407,10 +411,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="731" y="262" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1602413964298" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1603337909150">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1603518621399">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1603337909150" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1603518621399" />
     <state width="775" height="439" key="XDebugger.FullValuePopup" timestamp="1601276842428">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

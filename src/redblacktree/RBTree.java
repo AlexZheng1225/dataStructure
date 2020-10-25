@@ -116,7 +116,7 @@ public class RBTree<K extends Comparable<K>,V> {
 
         //维护的时机与AVL Tree一样，添加节点后回溯向上维护
 
-        //判断是否需要左旋转  （左右子树都为红节点时，则要进行颜色翻转）
+        //判断是否需要左旋转  （左右子树都为红节点时，则要进行颜色翻转） （有点类似树LR情况，在这一布先让其左旋转，再在下面的步骤进行右旋转）
         if (isRed(node.right)&&!isRed(node.left)){
             node = leftRotate(node);
         }
