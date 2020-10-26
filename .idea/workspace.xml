@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7162bc3e-65c9-4490-a6b1-f5f1d63ede98" name="Default" comment="2-3Tree与RBTree">
-      <change afterPath="$PROJECT_DIR$/src/HashTable/AVLTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/BST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/FileOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/HashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/HashTable.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/RBTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTable/Solution.java" afterDir="false" />
+    <list default="true" id="7162bc3e-65c9-4490-a6b1-f5f1d63ede98" name="Default" comment="hashtable的实现以及复杂度">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashTable/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashTable/HashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashTable/HashTable.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashTable/HashTable.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashTable/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashTable/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +237,7 @@
       <workItem from="1602735899052" duration="9894000" />
       <workItem from="1603168295678" duration="3661000" />
       <workItem from="1603241376979" duration="58564000" />
-      <workItem from="1603587903451" duration="31417000" />
+      <workItem from="1603587903451" duration="33941000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1602413245472</created>
@@ -342,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603606752482</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="hashtable的实现以及复杂度">
+      <created>1603713676060</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1603713676060</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +361,8 @@
     <MESSAGE value="基于AVL Tree实现的Set结合与其性能比较" />
     <MESSAGE value="2-3Tree与RBTree" />
     <MESSAGE value="2-3Tree与RBTre(补充)" />
-    <option name="LAST_COMMIT_MESSAGE" value="2-3Tree与RBTre(补充)" />
+    <MESSAGE value="hashtable的实现以及复杂度" />
+    <option name="LAST_COMMIT_MESSAGE" value="hashtable的实现以及复杂度" />
   </component>
   <component name="WindowStateProjectService">
     <state x="650" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1603686962479">
@@ -371,10 +374,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603353965194" />
-    <state x="546" y="142" key="CommitChangelistDialog2" timestamp="1603606751354">
+    <state x="546" y="142" key="CommitChangelistDialog2" timestamp="1603716209911">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="546" y="142" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1603606751354" />
+    <state x="546" y="142" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1603716209911" />
     <state width="548" height="583" key="DebuggerActiveHint" timestamp="1602140026710">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -384,26 +387,26 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="156" y="100" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603269314791" />
-    <state width="1875" height="244" key="GridCell.Tab.0.bottom" timestamp="1603709366449">
+    <state width="1875" height="244" key="GridCell.Tab.0.bottom" timestamp="1603714520650">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1491" height="244" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1603699883609" />
-    <state width="1875" height="244" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603709366449" />
-    <state width="1875" height="244" key="GridCell.Tab.0.center" timestamp="1603709366449">
+    <state width="1875" height="244" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603714520650" />
+    <state width="1875" height="244" key="GridCell.Tab.0.center" timestamp="1603714520650">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1491" height="244" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1603699883609" />
-    <state width="1875" height="244" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603709366449" />
-    <state width="1875" height="244" key="GridCell.Tab.0.left" timestamp="1603709366449">
+    <state width="1875" height="244" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603714520650" />
+    <state width="1875" height="244" key="GridCell.Tab.0.left" timestamp="1603714520650">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1491" height="244" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1603699883609" />
-    <state width="1875" height="244" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603709366449" />
-    <state width="1875" height="244" key="GridCell.Tab.0.right" timestamp="1603709366449">
+    <state width="1875" height="244" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603714520650" />
+    <state width="1875" height="244" key="GridCell.Tab.0.right" timestamp="1603714520650">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1491" height="244" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1603699883609" />
-    <state width="1875" height="244" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603709366449" />
+    <state width="1875" height="244" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603714520650" />
     <state width="1491" height="169" key="GridCell.Tab.1.bottom" timestamp="1603694486378">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -428,10 +431,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="731" y="262" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1602413964298" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1603606763368">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1603713678568">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1603606763368" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1603713678568" />
     <state width="775" height="439" key="XDebugger.FullValuePopup" timestamp="1601276842428">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

@@ -90,7 +90,7 @@ public class Main {
             //Test hashTable
             startTime = System.nanoTime();
             //对于实现的hashtable来说 开多少空间实际上是很重要的
-            HashTable<String, Integer> hashTable = new HashTable<String, Integer>(131700);
+            HashTable<String, Integer> hashTable = new HashTable<String, Integer>();
             for (String word : words) {
                 if (hashTable.contains(word)) {
                     hashTable.set(word, rbt.get(word) + 1);
